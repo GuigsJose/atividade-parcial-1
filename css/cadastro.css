@@ -1,119 +1,49 @@
-.titulo{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.info{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-nav{
-    background-color: #87CEEB;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a{
-    text-decoration: none;
-    color: #333;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-    background-color: #333;
-    color: white;
-    transition: background-color 0.3s ease;
-}
-
-nav a:hover{
-    background-color: #0056b3;
-    color: white;
-}
-body{
-    background: linear-gradient(to bottom, #87CEEB, white);
+body {
     margin: 0;
     padding: 0;
-}
-
-#dados-pessoais {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#dados-pessoais label{
-    display: block;
-    font-weight: bold;
-    color: #333;
-}
-
-#dados-pessoais input[type="text"],
-#dados-pessoais input[type="date"]
-{
-    
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#endereco{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#endereco label{
-    display: block;
-    font-weight: bold;
-    color: #333;
-}
-
-#endereco{
+    background: linear-gradient(to bottom, #87CEEB, white);
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
-#endereco input[type="text"]{
-    
-    padding: 8px;
-    margin-bottom: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    
-}
-
-
-.acesso-plat {
-    text-align: center;
-    background: linear-gradient(to bottom, #87CEEB, white); /* Fundo gradiente */
+.container {
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.acesso-plat h2 {
-    font-size: 24px;
-    color: #333;
+.section {
     margin-bottom: 20px;
 }
 
-.acesso-plat label {
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+label {
     display: block;
     font-weight: bold;
     color: #333;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
-.acesso-plat input[type="text"],
-.acesso-plat input[type="password"] {
-    
-    padding: 10px;
-    margin-bottom: 15px;
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    border-width: 15px; 
 }
 
-.acesso-plat input[type="submit"] {
+input[type="submit"] {
     background-color: #007bff;
     color: white;
     border: none;
@@ -122,6 +52,62 @@ body{
     cursor: pointer;
 }
 
-.acesso-plat input[type="submit"]:hover {
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87CEEB, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
     background-color: #0056b3;
 }
