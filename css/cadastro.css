@@ -1,0 +1,127 @@
+.titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+nav{
+    background-color: #87CEEB;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover{
+    background-color: #0056b3;
+    color: white;
+}
+body{
+    background: linear-gradient(to bottom, #87CEEB, white);
+    margin: 0;
+    padding: 0;
+}
+
+#dados-pessoais {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#dados-pessoais label{
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+#dados-pessoais input[type="text"],
+#dados-pessoais input[type="date"]
+{
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#endereco{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#endereco label{
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+#endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#endereco input[type="text"]{
+    
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+
+.acesso-plat {
+    text-align: center;
+    background: linear-gradient(to bottom, #87CEEB, white); /* Fundo gradiente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.acesso-plat h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.acesso-plat label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.acesso-plat input[type="text"],
+.acesso-plat input[type="password"] {
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.acesso-plat input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.acesso-plat input[type="submit"]:hover {
+    background-color: #0056b3;
+}
